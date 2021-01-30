@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title class="titel_text"> Bigroom Play List 01 </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="dark">
+      <ion-title size="small">player</ion-title>
+      <ion-buttons slot="primary">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-col size="12" class="ion-text-center">
+    <div id="bluerbg">
+      <div class="modal">
+        <!-- <img id="mox" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/mixtape-album-cover-art-design-template-68450756e786f85861314fa7d49d8366.jpg"> -->
+        <img width="68%" id="mox"
+          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/mixtape-album-cover-art-design-template-68450756e786f85861314fa7d49d8366.jpg">
+      </div>
+    </div>
+  </ion-col>
+  <ion-row>
+    <ion-col size="12">
+      <div class="artisname">Lazer Love (ft. Francisca Ha)
+      </div>
+      <div class="descript">Lazer Love (ft. Francisca Ha)
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+    <ion-row class="ion-padding">
+      <!-- <ion-col size="12" class="ion-text-center">
+        {{activeTrack.name}}
+      </ion-col> -->
+      <ion-col size="12">
+        <ion-range max="100" color="success"> </ion-range>
+      </ion-col>
+
+      <ion-col size="12" class="ion-text-center" id="btn_plal">
+        <ion-button Fill="clear" (click)="prev()" color="light">
+          <ion-icon name="play-skip-back-outline"></ion-icon>
+        </ion-button>
+
+        <ion-button size="large" Fill="clear" (click)="togglePlayer(false)" *ngIf="!isplaying" color="light">
+          <ion-icon id="ply_host" name="play-circle-outline"></ion-icon>
+        </ion-button>
+
+        <ion-button size="large" Fill="clear" (click)="togglePlayer(true)" *ngIf="isplaying" color="success">
+          <ion-icon name="pause-circle-outline"></ion-icon>
+        </ion-button>
+
+        <ion-button Fill="clear" size="small" (click)="next()" color="light">
+          <ion-icon name="play-skip-forward-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

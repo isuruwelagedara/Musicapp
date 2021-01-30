@@ -24,3 +24,18 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.searchbar-input {
+    background:  #292c4b !important;
+    border-radius: 10px !important;
+    height: 40px !important;
+    // max-width: 400px;
+    font-size: 1.25em !important;
+    border: 1px solid transparent;
+    color: rgba(231, 232, 233, 0.664) !important;
+}
+
+.titel_text {
+    color: #bec0c3;
+    font-family: Raleway;
+  }

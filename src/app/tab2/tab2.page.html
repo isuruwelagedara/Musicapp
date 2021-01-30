@@ -1,17 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
+<ion-header >
+  <ion-toolbar color="dark">
+    <ion-title class="titel_text" >
+      Bigroom Play List 01
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content color="dark" [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+    <ion-toolbar  color="dark">
+      <ion-title  class="titel_text" size="small">Bigroom Play List 01</ion-title>
+      <ion-buttons slot="primary">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>

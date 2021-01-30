@@ -1,0 +1,237 @@
+
+
+#mainslider {
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+#subslider {
+  padding-top: 40px;
+}
+
+.hr {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  top: 433px;
+  bottom: 40px;
+
+  border: 1px solid rgba(204, 205, 208, 0.2);
+}
+.hr2 {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  top: 759px;
+  bottom: 40px;
+
+  border: 1px solid rgba(204, 205, 208, 0.2);
+}
+
+.Rectangle128 {
+  /* Rectangle 128 */
+
+  position: relative;
+  width: 90%;
+  height: 40px;
+  margin: 4%;
+  background: #292c4b;
+  border-radius: 8px;
+}
+
+.Featured {
+  /* Featured */
+
+  position: absolute;
+  width: 138;
+  height: 20px;
+  left: 16px;
+  cursor: default;
+  text-transform: none;
+
+  // font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.232836px;
+
+  color: #00b54b;
+}
+
+.Top20 {
+  position: absolute;
+  width: 65px;
+  height: 16px;
+  left: 152px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.232836px;
+
+  color: #505367;
+}
+
+.TopArtist {
+  /* Top Artist */
+
+  position: absolute;
+  width: 94px;
+  height: 23px;
+  left: 241px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.232836px;
+
+  color: #505367;
+}
+
+.imagepack {
+  /* Rectangle 129 */
+
+  position: static;
+  width: 217px;
+  height: 108px;
+  left: 16px;
+  top: 84px;
+
+  background: url(.//..//../assets/images/Rectangle129.png);
+  border-radius: 9px;
+}
+
+.topic {
+  /* Sunburn of wind */
+
+  position: static;
+  width: 98px;
+  height: 14px;
+  left: 17px;
+  top: 207px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.232836px;
+
+  color: #cccdd0;
+}
+
+.artist {
+  /* Yohan Ft: KSHMR */
+  position: static;
+  width: 86px;
+  height: 12px;
+  left: 17px;
+  top: 229px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.232836px;
+
+  color: #505367;
+}
+
+.imagepack2 {
+  /* Rectangle 129 */
+
+  position: static;
+  width: 217px;
+  height: 108px;
+  left: 252px;
+  top: 84px;
+
+  background: url(.//..//../assets/images/Rectangle123.png);
+  border-radius: 9px;
+}
+
+.topic2 {
+  /* Sunburn of wind */
+
+  position: absolute;
+  width: 147px;
+  height: 14px;
+  left: 253px;
+  top: 207px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.232836px;
+
+  color: #cccdd0;
+}
+
+.artist2 {
+  /* Yohan Ft: KSHMR */
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  left: 253px;
+  top: 229px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.232836px;
+
+  color: #505367;
+}
+
+// this is list item custamize
+
+#rescentist {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.232836px;
+  color: #cccdd0;
+}
+
+#artistname {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.232836px;
+
+  color: #505367;
+}
+
+#iconLove {
+    position: sticky;
+    left: 90.4%;
+    right: 13.35%;
+    top: 31.44%;
+    bottom: 10.98%;
+}
